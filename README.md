@@ -17,15 +17,12 @@ Aplicación web desarrollada en **Java EE** diseñado para la gestión de grupos
 * **Control de Versiones:** Git & GitHub
 
 ## 🏗 Arquitectura
-El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)** 
-con **Front Controller**:
+El proyecto sigue el patrón **MVC (Modelo - Vista - Controlador)** con **Front Controller**:
 
-- **Front Controller** — `ServletEmisora` recibe todas las peticiones HTTP 
+- **Front Controller** — `ServletEmisora` recibe todas las peticiones HTTP (GET y POST)
   y las delega al controlador correspondiente según el parámetro `accion`
-- **Controladores** — cada operación CRUD tiene su propio controlador 
-  que implementa la interfaz `IControlador`
-- **Modelo** — `ModeloGrupo` y `ModeloComponente` encapsulan toda la 
-  lógica de acceso a base de datos
+- **Controladores** — cada operación CRUD tiene su propio controlador que implementa la interfaz `IControlador`
+- **Modelo** — `ModeloGrupo` y `ModeloComponente` encapsulan toda la lógica de acceso a base de datos
 - **Vista** — páginas JSP con JSTL para la presentación de datos
 
 ## 📂 Estructura del Proyecto
