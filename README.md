@@ -29,6 +29,7 @@ con **Front Controller**:
 - **Vista** — páginas JSP con JSTL para la presentación de datos
 
 ## 📂 Estructura del Proyecto
+```
 src/main/java/es/accenture/
 ├── servlet/
 │   └── ServletEmisora.java         ← Front Controller (punto de entrada)
@@ -57,6 +58,7 @@ src/main/webapp/
 │   └── context.xml                 ← Configuración DataSource (Tomcat)
 └── WEB-INF/
 └── web.xml                     ← Configuración del Servlet
+```
 
 ## 🚀Funcionalidades
 - Listar todos los grupos musicales de la base de datos
