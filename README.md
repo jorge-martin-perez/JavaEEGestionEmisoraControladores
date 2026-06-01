@@ -1,6 +1,6 @@
 # 📻 Gestión Emisora de Radio — Java EE
 <p align="center">
-  <img src="screenshot.png" alt="Captura del proyecto" width="600">
+  <img src="screenshoot/Image1.png" alt="Captura del proyecto" width="700">
 </p>
 
 Aplicación web desarrollada en **Java EE** diseñado para la gestión de grupos musicales y componentes de una emisora de radio. Implementa un CRUD completo sobre una base de datos MySQL, siguiendo una arquitectura en capas con patrón MVC y Front Controller. Controller.
@@ -117,3 +117,17 @@ credenciales de MySQL:
 2. Añade el proyecto al servidor Tomcat configurado en Eclipse
 3. Inicia el servidor
 4. Accede a: `http://localhost:8080/JavaEEGestionEmisoraControladores`
+
+<p align="center">
+  <img src="screenshoot/Image1.png" alt="Captura del proyecto" width="700">
+</p>
+<p align="center">
+  <img src="screenshoot/Image2.png" alt="Captura del proyecto" width="700">
+</p>
+<p align="center">
+  <img src="screenshoot/Image3.png" alt="Captura del proyecto" width="700">
+</p>
+<p align="center">
+  <img src="screenshoot/Image4.png" alt="Captura del proyecto" width="700">
+</p>
+
